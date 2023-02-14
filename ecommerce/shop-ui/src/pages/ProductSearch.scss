@@ -1,0 +1,25 @@
+.productSearch {
+  .container {
+    .title {
+      padding: 20px;
+      font-size: 30px;
+      span {
+        font-size: 14px;
+      }
+    }
+    .loadMore {
+      text-align: center;
+      padding: 20px;
+
+      .loadMoreButton {
+        border-radius: 10px;
+        font-size: 14px;
+        padding: 10px;
+        border: 2px solid teal;
+        background-color: white;
+        cursor: pointer;
+        font-weight: 500;
+      }
+    }
+  }
+}

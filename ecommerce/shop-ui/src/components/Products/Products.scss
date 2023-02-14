@@ -1,0 +1,9 @@
+.products {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @media only screen and (max-width: 380px) {
+    padding: 10px;
+  }
+}
